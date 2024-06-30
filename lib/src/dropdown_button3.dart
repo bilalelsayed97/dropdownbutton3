@@ -1664,7 +1664,7 @@ class DropdownButton2State<T> extends State<DropdownButton2<T>>
   }
 
   TextStyle? get _textStyle =>
-      widget.style ?? Theme.of(context).textTheme.titleMedium!;;
+      widget.style ?? Theme.of(context).textTheme.titleMedium!;
 
   Rect _getRect() {
     final TextDirection? textDirection = Directionality.maybeOf(context);
